@@ -169,6 +169,28 @@ body {
     }
   }
 }
+.aside {
+  color: $color__blue--grayish;
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: all 0.3s;
 
+  .attribution {
+    font-size: 1.2rem;
+
+    &__link:link,
+    &__link:visited {
+      color: aquamarine;
+      text-decoration: none;
+
+      &:hover {
+        color: aqua;
+        font-weight: 500;
+      }
+    }
+  }
+}
 //Media Queries for Mobile-design
 @import "media-queries";
