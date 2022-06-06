@@ -189,6 +189,32 @@ body {
   letter-spacing: 1px;
 }
 
+.aside {
+  color: #848794;
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.aside .attribution {
+  font-size: 1.2rem;
+}
+
+.aside .attribution__link:link, .aside .attribution__link:visited {
+  color: aquamarine;
+  text-decoration: none;
+}
+
+.aside .attribution__link:link:hover, .aside .attribution__link:visited:hover {
+  color: aqua;
+  font-weight: 500;
+}
+
+
 @media (max-width: 400px) {
   body {
     background-image: url(../images/bg-mobile.png);
