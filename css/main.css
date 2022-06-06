@@ -259,4 +259,8 @@ body {
   .flyo-data-component__data-left--greyish-blue {
     font-size: 0.8rem;
   }
+  .aside .attribution {
+    font-size: 0.76rem;
+  }
+
 }
