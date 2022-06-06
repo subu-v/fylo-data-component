@@ -1,0 +1,44 @@
+//MIXINS
+@mixin flex {
+  display: flex;
+}
+
+@mixin flex-direction--col {
+  flex-direction: column;
+}
+
+@mixin flex__center--hv {
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin flex__align-items--center {
+  align-items: center;
+}
+
+@mixin flex__align-self--end {
+  align-self: flex-end;
+}
+
+@mixin flex__justify-content--center {
+  justify-content: center;
+}
+
+@mixin flex__justify-content--space-between {
+  justify-content: space-between;
+}
+
+@mixin gap--xxs {
+  gap: 0.8rem;
+}
+@mixin gap--xs {
+  gap: 1.2rem;
+}
+
+@mixin gap--s {
+  gap: 2.4rem;
+}
+
+@mixin gap--m {
+  gap: 2.8rem;
+}

@@ -1,0 +1,50 @@
+@media (max-width: 400px) {
+  body {
+    background-image: url(../images/bg-mobile.png);
+    background-position: top;
+  }
+
+  .flyo-data-component {
+    @include flex-direction--col;
+
+    &__action-box {
+      padding: 3.2rem 4.8rem 3.2rem 3.2rem;
+      @include gap--m;
+    }
+
+    &__logo {
+      width: 58%;
+    }
+
+    &__icon-box {
+      padding: 2rem;
+    }
+
+    &__data-storage {
+      max-width: 28rem;
+      padding-bottom: 3.6rem;
+      position: relative;
+    }
+
+    &__data-info {
+      text-align: center;
+    }
+
+    &__data-left {
+      clip-path: none;
+      padding: 1rem 2rem;
+      border-radius: 0.9rem;
+      top: 80%;
+      right: 50%;
+      transform: translateX(50%);
+
+      &--dark-blue {
+        font-size: 3rem;
+      }
+
+      &--greyish-blue {
+        font-size: 0.8rem;
+      }
+    }
+  }
+}
