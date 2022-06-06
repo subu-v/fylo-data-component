@@ -165,7 +165,6 @@ body {
           align-items: center;
   border-top-left-radius: 0.9rem;
   border-top-right-radius: 0.9rem;
-  border-bottom-left-radius: 0.9rem;
   clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 85% 75%, 0% 75%);
   -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 85% 75%, 0% 75%);
   padding: 1.6rem 2.4rem 3.2rem;
